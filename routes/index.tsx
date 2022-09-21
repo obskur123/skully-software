@@ -153,10 +153,6 @@ export default function Home() {
       </div>
       <div class="flex flex-col p-2 mx-auto w-full max-w-screen-md bg-gray-200 rounded shadow-2xl mt-3">
         <div class="flex flex-row items-center">
-          <div class=" rounded-[50%] bg-black">
-            <img class="h-10 w-10 p-2" src="skull.gif"/>
-          </div>
-          <p class="font-bold ml-2">skully-software</p>
           <a href="https://fresh.deno.dev" target="_blank" class="ml-auto">
             <img
               width="197"
