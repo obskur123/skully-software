@@ -17,7 +17,7 @@ export default function Home() {
           <h2 class="text-2xl text-black font-bold">Quien soy 👀?</h2>
         </div>
         <p class="text-black text-xl">
-          Soy Tomas Varas, desarrollador de software en mi ultimo año de
+          Soy Tomás Varas, desarrollador de software en mi ultimo año de
           analista programador, actualmente de pasante en{" "}
           <a
             class="underline hover:text-blue-800"
@@ -36,7 +36,7 @@ export default function Home() {
         <div class="grid grid-cols-1 gap-4">
           <a href="mailto: tomas_varas1@outlook.com">
             <div
-              class="flex flex-row w-full p-4 rounded shadow items-center hover:animate-pulse"
+              class="flex flex-col w-full p-4 rounded shadow items-center hover:animate-pulse"
               style={{ backgroundColor: "#1C1C1C" }}
             >
               <img
@@ -44,14 +44,14 @@ export default function Home() {
                 class="h-16 w-16"
               >
               </img>
-              <h2 class="lg:text-xl ml-auto text-white">
+              <h2 class="lg:text-xl text-white mt-4">
                 tomas_varas1@outlook.com
               </h2>
             </div>
           </a>
           <a href="https://github.com/obskur123" target="_blank">
             <div
-              class="flex flex-row w-full p-4 rounded shadow-xl items-center hover:animate-pulse"
+              class="flex flex-col w-full p-4 rounded shadow-xl items-center hover:animate-pulse"
               style={{ backgroundColor: "#1C1C1C" }}
             >
               <img
@@ -59,7 +59,7 @@ export default function Home() {
                 class="h-16 w-16"
               >
               </img>
-              <h2 class="lg:text-xl ml-auto text-white">obskur123</h2>
+              <h2 class="lg:text-xl mt-4 text-white">obskur123</h2>
             </div>
           </a>
         </div>
@@ -70,7 +70,7 @@ export default function Home() {
         </div>
         <p class="text-black text-xl">
           Skully software es mi proyecto para ofrecer servicios de desarrollo de
-          software a corto y medio alcance, enfocado en el desarrollo web y
+          software a corto y medio alcance, enfocado en web y
           mobile.
         </p>
         <div class="flex border-b-4 border-black my-6">
@@ -124,7 +124,7 @@ export default function Home() {
           </img>
         </div>
         <div class="flex border-b-4 border-black my-6">
-          <h2 class="text-2xl text-black font-bold">Portafolio 📖</h2>
+          <h2 class="text-2xl text-black font-bold">Portfolio 📖</h2>
         </div>
         <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:mb-0">
           <PortfolioItem
@@ -137,10 +137,10 @@ export default function Home() {
               "https://upload.wikimedia.org/wikipedia/commons/e/e8/Deno_2021.svg",
             ]}
           />
-          <PortfolioItem
+          <PortfolioItem  
             color="#d62826"
             title="Diccionario/Traductor Mapuzungun"
-            description="Api y aplicacion para android para traducir palabras del español al mapuche de manera colectiva."
+            description="Api y aplicación para android para traducir palabras del español al mapuche de manera colectiva."
             to="https://github.com/obskur123/diccionario-mapuzungunapi"
             urlImageArray={[
               "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
@@ -151,9 +151,12 @@ export default function Home() {
           />
         </div>
       </div>
-      <div class="flex flex-col p-4 mx-auto w-full max-w-screen-md bg-gray-200 rounded shadow-2xl mt-3">
-        <div class="flex items-center">
-          <h2 class="font-bold">Tomas Varas - Skully Software ☠️</h2>
+      <div class="flex flex-col p-2 mx-auto w-full max-w-screen-md bg-gray-200 rounded shadow-2xl mt-3">
+        <div class="flex flex-row items-center">
+          <div class=" rounded-[50%] bg-black">
+            <img class="h-10 w-10 p-2" src="skull.gif"/>
+          </div>
+          <p class="font-bold ml-2">skully-software</p>
           <a href="https://fresh.deno.dev" target="_blank" class="ml-auto">
             <img
               width="197"

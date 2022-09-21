@@ -11,7 +11,7 @@ export default function PortfolioItem(props: PortfolioItem) {
     <div
       class="flex flex-col rounded p-3 items-center shadow-xl hover:animate-pulse hover:cursor-pointer"
       style={{ backgroundColor: props.color }}
-      onClick={() => window.open(props.to, '_blank')}
+      onClick={() => window.open(props.to, "_blank")}
     >
       <div
         class={"grid grid-cols-" + props.urlImageArray.length +
