@@ -1,13 +1,8 @@
-//recordar que solo se puese escribir js dentro de la carpeta islands xd
-
-import RandomIcon from "../islands/RandomIcon.tsx";
-
 export default function Home() {
   return (
   <>
     <div
-      class="flex flex-col h-screen justify-center items-center"
-      style={{ backgroundColor: "#1C1C1C" }}
+      class="flex flex-col h-screen justify-center items-center bg-gradient-to-b from-black to-red-900"
     >
       <div class="flex flex-col items-center mx-auto my-16 sm:px-6 md:px-8">
           <img height="100" width="100" src="skull.png" class="mb-2 animate-bounce"/>
@@ -17,13 +12,16 @@ export default function Home() {
       </div>
     </div>
     <div
-      class="flex flex-col h-screen justify-center items-center"
-      style={{backgroundColor: '#A30015'}}
+      class="flex flex-col h-screen justify-center items-center bg-red-900"
     >
       <div class="flex flex-col items-center">
       <div class="flex flex-col items-center mx-auto my-16 sm:px-6 md:px-8">
-          <div class="h-16 my-10">
-            <RandomIcon /> 
+          <div class="flex items-center">
+            <img src="preact.png" class="mx-2" width="100" height="100" alt="" />
+            <img src="react.png" class="mx-2" width="100" height="100" alt="" />
+            <img src="vue.png" class="mx-2" width="100" height="100" alt="" />
+            <img src="deno.svg" class="mx-2" width="100" height="100" alt="" />
+
           </div>
           <span class="title">Desarrollo</span>
           <span class="title">FullStack</span>
